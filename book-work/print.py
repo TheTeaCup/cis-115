@@ -1,6 +1,6 @@
-print('First-Name Last-Name')   # Display name
-print('000 Random Street')      # Display address
-print('City, State Zip')        # Display city, state, zip
+print('First-Name Last-Name')  # Display name
+print('000 Random Street')  # Display address
+print('City, State Zip')  # Display city, state, zip
 
 # Double Quotes
 print("Hi, I'm a string")
@@ -11,7 +11,6 @@ print("""
 Hello!
 I'm a string
 """)
-
 
 # Variables
 name = 'Person'
