@@ -1,17 +1,17 @@
 # Software Sales
 
-packages = int(input('Enter the number of packages you have purchased: ')) # Get number of packages
+packages = float(input('Enter the number of software packages you have purchased: '))  # Get number of packages
 cost = 99 * packages
 discount = 0
 
 # Calculate discount
 if 10 <= packages <= 19:
     discount = cost * 0.1
-if 20 <= packages <= 49:
+elif 20 <= packages <= 49:
     discount = cost * 0.2
-if 50 <= packages <= 99:
+elif 50 <= packages <= 99:
     discount = cost * 0.3
-if packages >= 100:
+elif packages >= 100:
     discount = cost * 0.4
 
 # Calculate total with discount
