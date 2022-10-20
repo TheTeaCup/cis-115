@@ -3,7 +3,7 @@
 def writeFile():
     num_days = int(input('How many days do you have sales for: '))
 
-    sales_file = open('../data/sales.txt', 'w')
+    sales_file = open('../data/sales.txt', 'w')  # w = write
     for count in range(1, num_days + 1):
         sales = float(input('Enter the sales for day #' + str(count) + ': '))
 
