@@ -5,4 +5,4 @@
 sales = float(input('Enter your projected total sales: '))
 
 # Inform user on expected profits
-print('Your expected profits are: $', format(sales * 0.23, ',.2f'))
+print('Your expected profits are: $', format(sales * 0.23, ',.2f'), sep="")

@@ -20,5 +20,5 @@ total = cost - discount
 
 # Print out totals
 print('Discount Amount: $', format(discount, ',.2f'))
-print('Total Purchase Amount W/O Discount: $', format(cost, ',.2f'))
-print('Total Purchase Amount With Discount: $', format(total, ',.2f'))
+print('Total Purchase Amount W/O Discount: $', format(cost, ',.2f'), sep="")
+print('Total Purchase Amount With Discount: $', format(total, ',.2f'), sep="")

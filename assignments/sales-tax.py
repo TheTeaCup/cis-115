@@ -14,5 +14,5 @@ totalAmount = (0.05 * purchaseAmount) + purchaseAmount
 payOffCost = totalAmount / payOffTime
 
 # Print the total amount with interest and the amount per payment added
-print("The total purchase amount with interest is: $", format(totalAmount, ',.2f'))
-print("Each installment will cost: $", format(payOffCost, ',.2f'))
+print("The total purchase amount with interest is: $", format(totalAmount, ',.2f'), sep="")
+print("Each installment will cost: $", format(payOffCost, ',.2f'), sep="")
