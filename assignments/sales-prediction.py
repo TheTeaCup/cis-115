@@ -1,4 +1,5 @@
 # Sales Prediction
+# Chapter 2 | Programming Exercise 2
 
 # Get user input
 sales = float(input('Enter your projected total sales: '))

@@ -5,4 +5,4 @@ for num in [1, 2, 3, 4, 5]:
 
 # Using a range
 for x in range(5):
-    print('Hello There') # Will repeat the message 5x
+    print('Hello There')  # Will repeat the message 5x

@@ -1,4 +1,5 @@
 # Software Sales
+# Chapter 3 | Programming Exercise 12
 
 packages = float(input('Enter the number of software packages you have purchased: '))  # Get number of packages
 cost = 99 * packages

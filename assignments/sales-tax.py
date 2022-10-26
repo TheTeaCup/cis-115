@@ -1,4 +1,5 @@
 # Sales Tax Program
+# Chapter 2 | Programming Exercise 6
 
 # How much was the item
 purchaseAmount = float(input('Please enter how much your purchase was: '))

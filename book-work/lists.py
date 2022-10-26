@@ -11,5 +11,3 @@ print(second)
 # Example three
 third = [1, 2, 3] * 3
 print(third)
-
-
