@@ -15,6 +15,7 @@ def calc_cost(area, price):
     labor = area * labor_unitsquarefeet  # finding total labour
     paint_cost = no_of_gallons * price  # finding total paint_cost
     labor_cost = labor * 35  # finding labor cost
+
     print("\nThe number of gallons of paint required: ", round(no_of_gallons, 2))  # printing all value
     print("The hours of labor required: ", round(labor, 2))
     print("The cost of the paint: ", round(paint_cost, 2))
