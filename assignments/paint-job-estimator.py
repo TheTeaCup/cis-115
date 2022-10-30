@@ -8,6 +8,14 @@ def main():  # main function
     calc_cost(area, price)  # calling calc_cost() function
 
 
+def print_cost(no_of_gallons, labor, paint_cost, labor_cost):
+    print("\nThe number of gallons of paint required: ", round(no_of_gallons, 2))  # printing all value
+    print("The hours of labor required: ", round(labor, 2))
+    print("The cost of the paint: ", round(paint_cost, 2))
+    print("The labor charges: " + format(labor_cost, ',.2f'), sep="")
+    print("The total cost of the paint job: " + format(paint_cost + +labor_cost, ',.2f'))  # printing total paint cost
+
+
 def calc_cost(area, price):
     gallon_unitsquarefeet = 1 / 112  # finding gallons required for unit square feet
     no_of_gallons = area * gallon_unitsquarefeet  # find the total no of gallons for given space
@@ -15,12 +23,7 @@ def calc_cost(area, price):
     labor = area * labor_unitsquarefeet  # finding total labour
     paint_cost = no_of_gallons * price  # finding total paint_cost
     labor_cost = labor * 35  # finding labor cost
-
-    print("\nThe number of gallons of paint required: ", round(no_of_gallons, 2))  # printing all value
-    print("The hours of labor required: ", round(labor, 2))
-    print("The cost of the paint: ", round(paint_cost, 2))
-    print("The labor charges: " + format(labor_cost, ',.2f'), sep="")
-    print("The total cost of the paint job: " + format(paint_cost + +labor_cost, ',.2f'))  # printing toal paint
+    print_cost(no_of_gallons, labor, paint_cost, labor_cost)
 
 
 main()  # Start the program
